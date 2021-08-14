@@ -1,0 +1,107 @@
+:root{
+  --primary--color: #edf2fc;
+  --secondary-color: #212121;
+  
+}
+.dark-theme{
+  --primary--color: #000106;
+  --secondary-color: #fff;
+}
+
+/* Global Css */
+body{
+  background-color: var(--primary--color) !important;
+}
+/*Navbar Css*/
+.nav-item{
+
+  padding: 18px;
+}
+.navbar{
+  padding: 7% 8%;
+  font-family: 'Roboto';
+}
+.navbar a{
+  color: var(--secondary-color) !important;
+}
+.navbar:hover .nav-item:hover .nav-link:hover{
+  color: #ff531f !important;
+}
+
+/* Images */
+#icon{
+  width: 30px;
+  /* display: inline-block; */
+  cursor: pointer;
+  margin-top: 4px;
+}
+.brand-logo{
+  width: 30%;
+}
+.title-image{
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+.title-image img{
+  height: 95%;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition : bottom 1s , left 1s;
+}
+.title-image:hover .back-img{
+  bottom: 40px;
+}
+.title-image:hover .girl{
+  left: 54%;
+}
+
+/*  Button */
+
+.btn{
+    margin-top: 10px;;  
+}
+.social-links{
+  margin-left: 8%;
+  margin-top: 50px;
+}
+.social-links a{
+  font-size: 30px;
+  color: var(--secondary-color);
+  margin-right: 20px;
+}
+.social-links a:hover{
+  font-size: 30px;
+  color: #ff4331;
+  margin-right: 20px;
+}
+
+/* Text */
+
+.left-txt{
+  display: inline-block;
+  margin-left: 8%;
+  margin-top: 12%;
+}
+.left-txt a{
+  color: inherit;
+  text-decoration: inherit; 
+}
+.left-txt p{
+ color: var(--secondary-color);
+}
+.left-txt a:hover{
+  color: #fff;
+}
+.left-txt h1{
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 70px;
+  margin-bottom: 20px;
+  color: var(--secondary-color);
+}
+
